@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RCL Example</title>
+    <link rel="stylesheet" href="~/_content/RazorClassLibraryExample/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="test-style">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/_content/RazorClassLibraryExample/js/site.js" asp-append-version="true"></script>
+    <script>
+        test("RCL");
+    </script>
+</body>
+</html>
+
